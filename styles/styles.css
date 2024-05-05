@@ -35,6 +35,7 @@ main{
 main img{
     width: 150px;
     height: auto;
+    float: right;
 }
 footer{
     margin-top: 15px;
@@ -42,3 +43,20 @@ footer{
     text-align: center;
 }
 p{padding:0;}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+/*class selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+    color:black
+}
+
