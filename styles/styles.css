@@ -16,18 +16,31 @@ border: 1px solid steelblue;
 padding: 2px;
 box-shadow: 0 0 30px gray;
 }
-aside{
+aside {
     width: 20rem;
-    margin:1rem;
-    border: 1px solid rgba(0,0,0,0.2);
-    padding:1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
     background-color: lightgray;
-    color:black;
+    color: black;
     text-align: center;
+    position: relative; /* Set the positioning context for absolute positioning */
 }
-aside img{
+
+aside img {
     width: 200px;
     height: auto;
+    display: block; /* Ensure img is a block element to properly center it */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+aside h2 {
+    color: slategray;
+    text-shadow: 1px 1px 3px white; 
+    position: absolute;
+    top: 45%; /* Place the top of the h2 at the vertical center of the parent */
+    left: 60%; /* Place the left of the h2 at the horizontal center of the parent */
+    margin: 0; /* Reset margin to remove any default margin */
 }
 main{
     max-width: 840px;
@@ -40,7 +53,7 @@ main img{
 footer{
     margin-top: 15px;
     border-top: 1px solid steelblue;
-    text-align: center;
+    text-align: left;
 }
 p{padding:0;}
 
@@ -51,11 +64,6 @@ p{padding:0;}
 
 }
 
-aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
 
 /*class selectors */
 
