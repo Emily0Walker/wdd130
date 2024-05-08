@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color:#142228;
+    --secondary-color:#76a877;
+    --accent1-color:#881606;
+    --accent2-color:#f7a82b;
+
+    --heading-font:'Noto Serif Display',serif;
+    --paragraph-font:'Courier Prime',monospace;
+
+    --nav-background-color:#BCD8C1;
+    --nav-link-color:#626267 ;
+    --nav-hover-link-color:#142228;
+    --nav-hover-background-color:#76a877 ;
+}
+
+/*This imports Noto Serif Display-serif and Courier Prime from Google fonts API*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color:#142228;
+    --secondary-color:#76a877;
+    --accent1-color:#881606;
+    --accent2-color:#f7a82b;
+
+    --heading-font:'Noto Serif Display',serif;
+    --paragraph-font:'Courier Prime',monospace;
+
+    --nav-background-color:#BCD8C1;
+    --nav-link-color:#626267 ;
+    --nav-hover-link-color:#142228;
+    --nav-hover-background-color:#76a877 ;
+}
+
+
+/* Class Selectors*/
+.hero div{
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-style: solid;
+    border: #142228 .05;
+    background: #142228 .05;
+}
+
+
+
+.hero img{
+    display: block;
+    width:100%;
+    height: auto;
+   
+}
+
+.hero artical{
+    border: solid #76a877;
+    border-color: #76a877;
+    position: absolute;
+}
+
