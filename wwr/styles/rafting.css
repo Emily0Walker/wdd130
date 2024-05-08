@@ -17,10 +17,10 @@
     --nav-hover-background-color:#76a877 ;
 }
 header{
-    width: 1500px;;
+    width: 1500px;
     height:fit-content;
     background-color: var(--accent1-color);
-    padding: 20px;;
+    padding: 20px;
 }
 body{
     font-family: var(--paragraph-font);
@@ -47,25 +47,10 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  
-
-.hero-h1 {
-    position: absolute; /* Position the heading absolutely within its containing element */
-    top: 10px; /* Distance from the top of the containing element */
-    left: 50%; /* Align the heading horizontally at the center */
-    transform: translateX(-50%); /* Move the heading back by half of its own width to center it */
-    width: 100%; /* Full width of the containing element */
-    text-align: center; /* Center-align the text */
-    font-size: 18px; /* Font size of the heading */
-    color: white; /* Text color */
-    /* Additional styling properties */
-    background: rgba(20, 34, 40, 0.5); /* Semi-transparent black background */
-    padding: 10px; /* Padding around the heading */
-    border: 1px solid white; /* White border */
-    box-sizing: border-box; /* Include padding and border in the width */
 }
-
-.hero-article {
+  
+.hero-article
+{   
     position: absolute; /* Position the article absolutely within its containing element */
     top: 50%; /* Align the article vertically at the center */
     left: 50%; /* Align the article horizontally at the center */
@@ -73,7 +58,7 @@ p{
     /* Additional styling properties */
     background: rgba(20, 34, 40, 0.7); /* Semi-transparent black background */
     color: white; /* Text color */
-    padding: 20px; /* Padding around the article */
-    border: 2px solid white; /* White border */
-    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 20px; 
+    border: 2px solid white; 
+    box-sizing: border-box;
 }
