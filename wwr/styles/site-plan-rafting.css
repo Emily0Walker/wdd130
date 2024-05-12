@@ -16,6 +16,7 @@
     --nav-hover-link-color:#142228;
     --nav-hover-background-color:#76a877 ;
 }
+
 header{
     background-color: var(--accent1-color);
     padding: 20px;;
@@ -38,20 +39,16 @@ nav{
     font-size:1.2rem;
     display:flex;
 }
-
 nav a{
     display:block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:link, nav a:visited{
     color: var(--nav-link-color);
 }
-
 nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-
 }
