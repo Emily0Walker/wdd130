@@ -109,9 +109,37 @@ figure {
   }
   
   figcaption {
-	background-color: black;
-	color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	font-style: italic;
 	padding: 2px;
 	text-align: center;
   }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery figure {
+    flex: 1 1 220px; /* Allow figures to grow and shrink, with a base width of 220px */
+    margin: 10px; /* Add some spacing between the figures */
+    text-align: center; /* Center align the text inside each figure */
+}
+
+.gallery img {
+    width: 220px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.gallery img[src="images/calmriver_raft.jpg"] {
+    object-position: right center; /* Show more of the left side of the image */
+}
+
+.sociallinks {
+    display: flex; /* Aligns children in a row */
+    justify-content: flex-end; /* Centers the links horizontally */
+    align-items: center; /* Aligns the links vertically in the center */
+}
