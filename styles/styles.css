@@ -19,11 +19,11 @@ align-items: center;
 
 nav a {
     display: block;
-    color:white;
     padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
+    color: #fff;
 }
 
 h1{
@@ -41,9 +41,9 @@ box-shadow: 0 0 30px gray;
 
 aside {
     width: 20rem;
-    color: black;
-    text-align: center;
     position: relative; /* Set the positioning context for absolute positioning */
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -62,10 +62,17 @@ aside h2 {
     margin: 0; /* Reset margin to remove any default margin */
 }
 
+main{
+    grid-column: 2/3;
+    align-items: center;
+}
+
 main img{
     width: 150px;
     height: auto;
     float: right;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 footer{
@@ -76,8 +83,6 @@ footer{
 
 p{padding:0;}
 
-
-
 /* Class Selectors */
 
 .box{
@@ -86,6 +91,11 @@ p{padding:0;}
     padding: 1em;
     background-color: #dde3e0;
     color: black;
+}
+
+.grid{
+    display: grid ;
+    align-items: center;
 }
 
 
