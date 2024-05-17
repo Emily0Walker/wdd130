@@ -72,7 +72,7 @@ body, html {
 
 /* The hero image */
 .hero-image {
-	background-image: url("/images/hero_2.jpeg");
+	background-image: url("images/HERO_IMAGE.jpeg");
 	height: 400px;
 	width: 100%;
 
@@ -98,7 +98,8 @@ body, html {
 	
   }
 .hero-txt-img{
-	display: inline-block;
+	display: inline-flex ;
+	border-image-width: 200px;
 }
 
 figure {
