@@ -72,7 +72,7 @@ body, html {
 
 /* The hero image */
 .hero-image {
-	background-image: url("images/HERO_IMAGE.jpeg");
+	background-image: url("images/hero.jpg");
 	height: 400px;
 	width: 100%;
 
