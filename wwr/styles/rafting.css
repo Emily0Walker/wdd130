@@ -71,22 +71,15 @@ nav {
     text-decoration: underline;
 }
 
-/* Hero Section */
-.About_hero, .Contact_hero {
+/* About Hero Section */
+.About_hero {
+	background-image: url("/images/hero.jpg") ;
     height: 400px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-.About_hero{
-	background-image: url("/images/hero.jpg") ;
-}
-
-.Contact_hero {
-    background-image: url("/images/contact_us_hero.png");
 }
 
 .hero-text {
@@ -142,8 +135,110 @@ figcaption {
     object-position: right center;
 }
 
+/* Contact us page */
+
+.contact{
+    background-color: #f3f7f3;
+    border-color: #142228;
+    border-top: 1px solid;
+}
+
+
+/* Contact Hero Section */
+.Contact_hero {
+    background-image: url("/images/contact_hero.png");   
+	height: 400px;
+    width: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact_cards {
+    height: 225px;
+    position: relative;
+    display: flex;
+    flex-direction: row;     
+    text-align: center;
+    justify-content: center;
+    top: -35px;
+    gap: 20px;
+    align-items: center;
+}
+
+.block_left {
+	width: 286px;
+    height: 185px;
+    padding: 8px;
+    background: rgba(255, 255, 255);
+    border-color: rgba(118, 168, 119, .75);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.block_right {
+	width: 286px;
+    height: 185px;
+    padding: 8px;
+    background: rgba(255,255,255);
+    border-color: rgba(118, 168, 119, .75);
+    border-width: 3px;
+    border-style:  solid;
+    border-radius: 6px;
+	margin: 10px;
+	
+}
+
+/*Map Section*/
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: -5px;
+}
+
+.contact-info {
+    width: 40%;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.contact-info p {
+    margin: 5px 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.map {
+    width: 55%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
 .sociallinks {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
+
