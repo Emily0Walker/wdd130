@@ -119,6 +119,12 @@ figcaption {
     justify-content: space-around;
 }
 
+.employ{
+    justify-content: space-between;
+    object-fit: contain;
+    width 
+}
+
 .gallery figure {
     flex: 1 1 220px;
     margin: 10px;
@@ -227,11 +233,6 @@ figcaption {
     width: 55%;
     height: 400px;
 }
-
-
-
-
-
 
 
 
