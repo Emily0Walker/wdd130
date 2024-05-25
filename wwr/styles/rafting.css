@@ -152,7 +152,7 @@ figcaption {
 
 /* Contact Hero Section */
 .Contact_hero {
-    background-image: url("/wwr/images/contact_hero.jpg");   
+    background-image: url("/images/contact_hero.jpg");   
 	height: 400px;
     width: 100%;
     background-position: top left;
