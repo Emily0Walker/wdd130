@@ -73,7 +73,7 @@ nav {
 
 /* About Hero Section */
 .About_hero {
-	background-image: url("images/about/hero.jpg");
+	background-image: url("about/hero.jpg");
 	height: 400px;
 	width: 100%;
 	background-position: center;
@@ -141,7 +141,7 @@ figcaption {
     object-fit: cover;
 }
 
-.gallery img[src="images/calmriver_raft.jpg"] {
+.gallery img[src="about/calmriver_raft.jpg"] {
     object-position: right center;
 }
 
