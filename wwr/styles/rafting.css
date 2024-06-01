@@ -274,6 +274,7 @@ figcaption {
     align-items: center;
     justify-content: left; /* Added to center the content */ 
 }
+
 .tag_content,.right_img {
     display: flex;
     align-items: center;
