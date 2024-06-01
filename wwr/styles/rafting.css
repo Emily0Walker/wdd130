@@ -306,23 +306,22 @@ figcaption {
 
 .switch{
     display: flex;
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+    justify-content: center;
+
 }
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 200px; /* Optional: adjust the container size */
-    height: 200px; /* Optional: adjust the container size */
+    grid-template-rows: repeat(2, 350px);
+    width: 1100px; /* Optional: adjust the container size */
 }
 
-.box {
+.box p{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightblue;
-    border: 1px solid #000;
+    text-align: center;
 }
-
 /*Call to action*/
 .action-call{
     background-color: #c4c4c4;
@@ -330,7 +329,6 @@ figcaption {
 }
 
 .hook{
-
     text-align: center;
 }
 
@@ -385,6 +383,19 @@ button{
     border: none;
     border-radius: 5px;
 }
+
+/*Newsletter*/
+
+.news_hero {
+    background-image: url("images/Home/news_hero.png");
+    height: 400px;
+    width: 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 
 /*Footer*/
 
