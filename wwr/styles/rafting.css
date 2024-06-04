@@ -192,7 +192,7 @@ figcaption {
 }
 
 .Contact_hero {
-    background-image: url("images/logos/contact_hero.jpg");
+    background-image: url("../logos/contact_hero.jpg");
     height: 400px;
     width: 100%;
     background-position: top left;
@@ -322,6 +322,7 @@ figcaption {
     display: flex;
     text-align: center;
 }
+
 /*Call to action*/
 .action-call{
     background-color: #c4c4c4;
@@ -340,9 +341,9 @@ figcaption {
 }
 
 .rapid_lvl {
-	width: 335px;
+	width: 341px;
 	height: 531px;
-	padding: 3px 2px 8px 3px;
+	padding: 3px 2px 2px 3px;
 	background: #FFFFFF;
 	color: #444444;
 	border-radius: 24px 24px 24px 24px;
@@ -350,6 +351,14 @@ figcaption {
 	font-size: 15px;
 	line-height: 1.5;
 	text-align: center;
+}
+
+.rapid_lvl img{
+    display: flex;
+    align-items: flex-start;
+    width: 335px;
+    height: 220px;
+    object-fit: cover;
 }
 
 .sinker{
@@ -395,6 +404,22 @@ button{
     background-size: cover;
     position: relative;
 }
+
+/*Trips Page*/
+
+.sliders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-between;
+}
+.trip_slide{
+    display: flex; /* ? */
+
+
+}
+
+
+
 
 
 /*Footer*/
