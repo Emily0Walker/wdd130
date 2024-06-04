@@ -393,17 +393,6 @@ button{
     border-radius: 5px;
 }
 
-/*Newsletter*/
-
-.news_hero {
-    background-image: url("images/Home/news_hero.png");
-    height: 400px;
-    width: 100%;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 /*Trips Page*/
 .sliders {
