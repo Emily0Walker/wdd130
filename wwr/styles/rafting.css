@@ -315,7 +315,7 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 350px);
-    width: 1100px; /* Optional: adjust the container size */
+    width: 1100px; 
 }
 
 .box p{
@@ -406,18 +406,48 @@ button{
 }
 
 /*Trips Page*/
-
-.sliders{
+.sliders {
     display: flex;
     flex-direction: column;
-    justify-content: center space-between;
-}
-.trip_slide{
-    display: flex; /* ? */
-
-
+    justify-content: space-around; /* Corrected the justify-content value */
+    gap: 10px;
 }
 
+.trip_slide {
+    margin: 5px 125px 50px 125px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 355px;
+    padding: 3px 2px 2px 3px;
+    background: #c4c4c4;
+    color: #000;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.trip_slide img {
+    align-self: start; /* Corrected alignment properties */
+    width: 435px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 24px 0 0 24px;
+}
+
+.trip_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+}
 
 
 
